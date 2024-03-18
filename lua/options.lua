@@ -14,7 +14,7 @@ vim.opt.cursorline = true	--highlight cursor line underneath the cursor horizont
 vim.opt.splitbelow = true	--New vert split bottom
 vim.opt.splitright = true	--New horizontal splits right
 vim.opt.termguicolors = true	--24bit rgb color
-vim.opt.showmode = true		--show mode
+vim.opt.showmode = false		--show mode
 vim.opt.scrolloff = 10		--10 lines of scrolloff
 vim.opt.signcolumn = "yes"
 
