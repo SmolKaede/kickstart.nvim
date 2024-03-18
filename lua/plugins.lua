@@ -58,4 +58,6 @@ require("lazy").setup({
         cmd = {"LazyGit", "LazyGitConfig", "LazyGitCurrentFile", "LazyGitFilter", "LazyGitFilterCurrentFile"},
         dependencies = { "nvim-lua/plenary.nvim" },
     },
+    --Comment toggle
+    { "numToStr/Comment.nvim", lazy = false, opts = {}, },
 })
