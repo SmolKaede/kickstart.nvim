@@ -20,7 +20,7 @@ vim.opt.signcolumn = "yes"
 
 -- Search --
 vim.opt.incsearch = true	--search as characters are entered
-vim.opt.hlsearch = true		--highlight matches
+vim.opt.hlsearch = false		--highlight matches
 vim.opt.ignorecase = true	--ignore case in search
 vim.opt.smartcase = true	--case sensitive if uppercase is entered
 

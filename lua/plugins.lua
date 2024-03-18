@@ -60,4 +60,6 @@ require("lazy").setup({
     },
     --Comment toggle
     { "numToStr/Comment.nvim", lazy = false, opts = {}, },
+    --LuaLine
+    { 'nvim-lualine/lualine.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' }},
 })
