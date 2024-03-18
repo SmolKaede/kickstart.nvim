@@ -51,5 +51,11 @@ require("lazy").setup({
         { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
       },
     },
+    -- Autopairs
     { "windwp/nvim-autopairs", event = "InsertEnter", config = true},
+    --Lazygit
+    { "kdheepak/lazygit.nvim",
+        cmd = {"LazyGit", "LazyGitConfig", "LazyGitCurrentFile", "LazyGitFilter", "LazyGitFilterCurrentFile"},
+        dependencies = { "nvim-lua/plenary.nvim" },
+    },
 })
