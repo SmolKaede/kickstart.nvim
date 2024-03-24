@@ -1,4 +1,5 @@
 vim.g.mapleader = " "       -- Space for mapleader
+vim.g.maplocalleader = ","     -- Local leader
 
 vim.keymap.set("n", "<leader>ex", vim.cmd.Ex)
 

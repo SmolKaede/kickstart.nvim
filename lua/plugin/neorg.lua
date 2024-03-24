@@ -14,9 +14,13 @@ return{
               workspaces = {
                 notes = "~/Documents/Notes/neorg",
               },
+              default_workspace = "notes",
             },
           },
         },
       }
+      -- Keymaps
+      vim.keymap.set('n', '<leader>ni', ":Neorg index<CR>")
+      vim.keymap.set('n', '<leader>nx', ":Neorg return<CR>")
     end,
 }
